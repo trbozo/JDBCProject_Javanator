@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JDBC_Statements extends JDBCParentClass {
+public class JDBC_Statement extends JDBCParent {
 
     @Test
     public void Test11() throws SQLException {
