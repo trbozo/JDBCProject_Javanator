@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JDBCParent {
+public class JDBCParentClass {
 
     public static Connection baglanti;
     public static Statement sorguEkrani;
