@@ -139,7 +139,7 @@ public class task_21_25_employees extends JDBCParentClass {
 //
 //        try {
 //            DBConnectionOpen();
-//            ResultSet rs = queryScreen.executeQuery(query);
+//            ResultSet rs = sorguEkrani.executeQuery(query);
 //            ResultSetMetaData rsmd = rs.getMetaData();
 //
 //            while (rs.next()) {
