@@ -1,12 +1,12 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JDBCParentClass {
 
     public static Connection baglanti;
     public static Statement sorguEkrani;
+
 
     public static void DBConnectionOpen()
     {
@@ -25,15 +25,11 @@ public class JDBCParentClass {
     }
 
     public static void DBConnectionClose()
-    {
         try {
             baglanti.close();
         } catch (SQLException e) {
             System.out.println("ex.getMessage() = " + e.getMessage());
         }
+
+
     }
-
-
-
-
-}
